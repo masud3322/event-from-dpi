@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="event-heading">
+            <h1>Event Registration Form</h1>
+        </div>
+        <div class="wraper">            
+            <div class="event_section">
+                <!-- user details -->
+                <div class="event_details">
+                    <h1>About This Event</h1>
+                    <div style="display: flex; gap: 30px">
+                        <div>
+                            <p>Event Name</p>
+                            <p>Date</p>
+                            <p>Time</p>
+                            <p>Speaker</p>
+                            <p>Organizer</p>
+                            <p>More Information</p>
+                            <p></p>
+                            <p></p>
+                        </div>
+
+
+
+                        <div>
+                            <p>: MD Mehedi Hasan Masud</p>
+                            <p>: Julay 18, 2024</p>
+                            <p>: 1.15 PM - 2.45 PM</p>
+                            <p>: Md. Masud [ Student - CST ]</p>
+                            <p>: WEB Club DPI</p>
+                            <p>: <a href="#" style="text-decoration: none;">https://dpi.edu.bd/</a></span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- participant image -->
+                <div class="participant_image">
+                    <img src="profile.jpg" alt="user-image" width="90" height="90">
+                    <p>Speaker</p>
+                    <h3>Md. Masud </h3>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Participant information  -->
+
+            <form>
+                <h1>Participant Information</h1>
+                <div class="name_birth">
+                    <div class="full_name">
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" placeholder="Enter Full Name">
+                    </div>
+                    <div class="birth_day">
+                        <label for="birth">Date of Birth</label>
+                        <input type="date" id="birth">
+                    </div>
+                </div>
+
+                <div class="gender-info">
+                    <p>Gender</p>
+                    <div class="gender flex">
+                        <div class="male flex">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+    
+                        <div class="female flex">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+    
+                        <div class="others flex">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Others</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="phone_email">
+                    <div class="phone">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email">
+                    </div>
+                </div>
+
+           <!-- Social information -->
+
+                <div class="virtual_info">
+                    <p>Where did you hear about this virtual event?</p>
+                    <div class="attend_by">
+                        <div class="facebook flex">
+                            <input type="radio" id="facebook" name="platform">
+                            <label for="facebook">Facebook</label>
+                        </div>
+                        <div class="youtube flex">
+                            <input type="radio" id="youtube" name="platform">
+                            <label for="youtube">Youtube</label>
+                        </div>
+                        <div class="instagram flex">
+                            <input type="radio" id="instagram" name="platform">
+                            <label for="instagram">Instagram</label>
+                        </div>
+                        <div class="twitter flex">
+                            <input type="radio" id="twitter" name="platform">
+                            <label for="twitter">Twitter</label>
+                        </div>
+                        <div class="other flex">
+                            <input type="radio" id="other" name="platform">
+                            <label for="other">Others</label>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Payment Information -->
+                 
+                <div class="payment_info">
+                    <h1>Payment Information:</h1>
+                    <div class="payment">
+                        <div class="ticket">
+                            <label for="tnumber">Number of Tickets</label>
+                            <input type="number" id="tnumber" placeholder="number of ticket">
+                        </div>
+                        <div class="payment_method">
+                            <p>Payment Method:</p>
+                            <div class="methods flex">
+                                <div class="credit flex">
+                                    <input type="radio" id="credit" name="method">
+                                    <label for="credit">Credit Card</label>
+                                </div>
+
+                                <div class="debit flex">
+                                    <input type="radio" id="debit" name="method">
+                                    <label for="debit">Debit Card</label>
+                                </div>
+
+                                <div class="cash flex">
+                                    <input type="radio" id="cash" name="method">
+                                    <label for="cash">Cash</label>
+                                </div>
+
+                                <div class="check flex">
+                                    <input type="radio" id="check" name="method">
+                                    <label for="check">Check</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </form>
+
+            <hr>
+
+
+            <!-- terms and condition -->
+
+
+            <div class="terms_section">
+                <div class="terms" >
+                    <p>It's important to tailor these terms and conditions to the specific details of your event and the services provided. Legal counsel should Lorem ipsum dolor sit, amet consectetur. </p>
+                </div>
+
+                <div class="signature_date">
+                    <div class="date">
+                        <p>Date: Julay 18, 2024</p>
+                    </div>
+                   
+                    <div class="signature">
+                        <p>Signature</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
